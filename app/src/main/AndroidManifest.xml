@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="hosh.io.atv_launchers">
+
+    <uses-feature
+            android:name="android.hardware.touchscreen"
+            android:required="false"/>
+    <uses-feature
+            android:name="android.software.leanback"
+            android:required="true"/>
+
+    <application android:allowBackup="true"
+                 android:supportsRtl="true"
+                 android:icon="@drawable/movie"
+                 android:theme="@style/Theme.Leanback">
+        <activity android:name="hosh.io.atv_launchers.BbcIplayerActivity"
+                  android:taskAffinity="hosh.io.atv_launchers.BbcIplayerActivity"
+                  android:excludeFromRecents="true"
+                  android:label="@string/bbc_iplayer_name"
+                  android:icon="@mipmap/bbc_iplayer_icon"
+                  android:banner="@mipmap/bbc_iplayer_banner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="hosh.io.atv_launchers.ItvHubActivity"
+                  android:taskAffinity="hosh.io.atv_launchers.ItvHubActivity"
+                  android:excludeFromRecents="true"
+                  android:label="@string/itv_hub_name"
+                  android:icon="@mipmap/itv_hub_icon"
+                  android:banner="@mipmap/itv_hub_banner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="hosh.io.atv_launchers.All4Activity"
+                  android:taskAffinity="hosh.io.atv_launchers.All4Activity"
+                  android:excludeFromRecents="true"
+                  android:label="@string/all_4_name"
+                  android:icon="@mipmap/all_4_icon"
+                  android:banner="@mipmap/all_4_banner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="hosh.io.atv_launchers.My5Activity"
+                  android:taskAffinity="hosh.io.atv_launchers.My5Activity"
+                  android:excludeFromRecents="true"
+                  android:label="@string/my5_name"
+                  android:icon="@mipmap/my5_icon"
+                  android:banner="@mipmap/my5_banner">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
