@@ -6,10 +6,10 @@ import android.os.Bundle;
 
 public class All4Activity extends Activity {
     // am start -a com.sony.dtv.hbbtvlauncher.LaunchHbbTV -n com.sony.dtv.hbbtvlauncher/.LaunchHbbTV
-    // -e HBBTV_LAUNCHER_INFO "type=bi, service=All4, url=https://yvweb.channel4.com/yvwebapp"
+    // -e HBBTV_LAUNCHER_INFO "type=bi, service=All4, url=https://yvweb.channel4.com/yvwebapp//"
 
     private String serviceName = "All4";
-    private String serviceUrl = "https://yvweb.channel4.com/yvwebapp";
+    private String serviceUrl = "https://yvweb.channel4.com/yvwebapp//";
 
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);

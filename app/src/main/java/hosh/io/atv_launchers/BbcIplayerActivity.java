@@ -1,6 +1,7 @@
 package hosh.io.atv_launchers;
 
 import android.app.Activity;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -8,8 +9,8 @@ public class BbcIplayerActivity extends Activity {
     // am start -a com.sony.dtv.hbbtvlauncher.LaunchHbbTV -n com.sony.dtv.hbbtvlauncher/.LaunchHbbTV
     // -e HBBTV_LAUNCHER_INFO "type=bi, service=BBC_iPlayer, url=https://www.live.bbctvapps.co.uk/tap/iplayer/?origin=portal"
 
-    private String serviceName = "ITV_Hub";
-        private String serviceUrl = "https://app.10ft.itv.com/youviewsony";
+    private String serviceName = "BBC_iPlayer";
+    private String serviceUrl = "https://www.live.bbctvapps.co.uk/tap/iplayer/?origin=portal";
 
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
