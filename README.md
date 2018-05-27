@@ -1,4 +1,4 @@
-# android-tv-youview-player-launchers
+# bravia-youview-player-launchers
 
 This is a small application that simply adds a icon to the homescreen
 to be used with Sony TVs that run YouView:
