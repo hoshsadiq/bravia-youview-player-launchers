@@ -18,6 +18,10 @@ This will add icons to Android so that these apps can be launched
 without YouView. This does also mean you can disable YouView and still
 enjoy these player apps.
 
+Additionally, while personally I like YouView, I'm sure there are people
+who have it disabled. This will allow you to access them even when YouView
+is disabled.
+
 ### Installation
 
 Simply download the latest APK under [releases](https://github.com/hoshsadiq/android-tv-youview-player-launchers/releases)
