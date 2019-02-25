@@ -1,0 +1,5 @@
+<resources>
+    <string name="label">All4</string>
+    <string name="serviceUrl">https://yvweb.channel4.com/yvwebapp//</string>
+    <string name="serviceName">All4</string>
+</resources>

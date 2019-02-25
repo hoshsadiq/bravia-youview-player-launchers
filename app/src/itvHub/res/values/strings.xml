@@ -1,0 +1,5 @@
+<resources>
+    <string name="label">ITV Hub</string>
+    <string name="serviceUrl">http://app.10ft.itv.com/youviewsony</string>
+    <string name="serviceName">ITV_Hub</string>
+</resources>
