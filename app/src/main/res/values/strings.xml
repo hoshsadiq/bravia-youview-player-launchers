@@ -20,8 +20,8 @@
     <string name="video_error_unknown_error">Failed to load video</string>
     <string name="error_fragment_message">An error occurred</string>
     <string name="dismiss_error">Dismiss</string>
-    <string name="bbc_iplayer_name">BBC iPlayer</string>
-    <string name="itv_hub_name">ITV Hub</string>
-    <string name="all_4_name">All4</string>
-    <string name="my5_name">My5</string>
+    <string name="label">BraviaLauncher</string>
+    <string name="serviceUrl">UnknownURL</string>
+    <string name="serviceName">UnknownService</string>
+
 </resources>

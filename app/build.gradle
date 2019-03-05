@@ -16,6 +16,23 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    productFlavors{
+        iPlayer {
+            applicationIdSuffix = ".iPlayer"
+        }
+
+        all4 {
+            applicationIdSuffix = ".all4"
+        }
+
+        my5 {
+            applicationIdSuffix = ".my5"
+        }
+
+        itvHub {
+            applicationIdSuffix = ".itvHub"
+        }
+    }
 }
 
 dependencies {

@@ -1,0 +1,5 @@
+<resources>
+    <string name="label">iPlayer</string>
+    <string name="serviceUrl">https://www.live.bbctvapps.co.uk/tap/iplayer/?origin=portal</string>
+    <string name="serviceName">BBC_iPlayer</string>
+</resources>

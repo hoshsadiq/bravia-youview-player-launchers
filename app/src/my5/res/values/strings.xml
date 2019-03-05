@@ -1,0 +1,5 @@
+<resources>
+    <string name="label">My5</string>
+    <string name="serviceUrl">https://youview.my5static.com</string>
+    <string name="serviceName">My5</string>
+</resources>
