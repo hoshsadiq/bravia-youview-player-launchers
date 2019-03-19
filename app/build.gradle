@@ -33,6 +33,10 @@ android {
         itvHub {
             applicationIdSuffix = ".itvHub"
         }
+
+        STV {
+            applicationIdSuffix = ".stv"
+        }
     }
 }
 
