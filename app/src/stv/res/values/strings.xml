@@ -1,0 +1,5 @@
+<resources>
+    <string name="label">STV</string>
+    <string name="serviceUrl">http://youview.player.stv.tv/?region=</string>
+    <string name="serviceName">STV</string>
+</resources>
