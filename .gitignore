@@ -5,6 +5,8 @@
 /.idea/libraries
 .DS_Store
 /build
+/app/build
 /captures
 .externalNativeBuild
 .idea/
+*.jks
