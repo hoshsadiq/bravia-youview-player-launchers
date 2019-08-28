@@ -17,9 +17,6 @@
                  android:banner="@mipmap/banner"
                  android:theme="@style/Theme.Leanback"
                  tools:ignore="GoogleAppIndexingWarning">
-        <meta-data android:name="serviceUrl" android:value="@string/serviceUrl" />
-        <meta-data android:name="serviceName" android:value="@string/serviceName" />
-
         <activity android:name="hosh.io.atv_launchers.GenericLauncher"
                   android:taskAffinity="hosh.io.atv_launchers.GenericLauncher"
                   android:excludeFromRecents="true" >
