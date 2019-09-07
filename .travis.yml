@@ -48,7 +48,7 @@ before_deploy:
       signedFile="$TRAVIS_BUILD_DIR/$(basename "$apk" | sed 's/unsigned/signed/')"
       jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore $TRAVIS_BUILD_DIR/android-keys.jks -storepass $storepass "$apk" atvlaunchers
       jarsigner -verify "$apk"
-      ${build_tools_version}/zipalign -v 4 "$apk" "$signedFile"
+      ${ANDROID_HOME}/build-tools/${build_tools_version}/zipalign -v 4 "$apk" "$signedFile"
     done
   - pwd && ls -la
 
