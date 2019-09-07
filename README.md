@@ -5,8 +5,10 @@ to be used with Sony TVs that run YouView:
 
 - BBC iPlayer
 - ITV Hub
-- All4
+- All 4
 - My5
+- UKTV Play
+- STV Player
 
 ### Why
 
