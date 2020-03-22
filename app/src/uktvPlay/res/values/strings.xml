@@ -1,5 +1,5 @@
 <resources>
     <string name="label">UKTV Play</string>
-    <string name="serviceUrl">https://tvapp.uktv.co.uk/?brand=default&amp;model=fvp&amp;launch_mode=video_only&amp;house_num=None</string>
+    <string name="serviceUrl">https://tvapp.uktv.co.uk/?brand=default&amp;model=fvp&amp;house_num=None</string>
     <string name="serviceName">UKTV Play</string>
 </resources>
