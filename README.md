@@ -4,6 +4,7 @@ This is a small application that simply adds a icon to the homescreen
 to be used with Sony TVs that run YouView:
 
 - BBC iPlayer
+- BBC Sounds
 - ITV Hub
 - All 4
 - My5

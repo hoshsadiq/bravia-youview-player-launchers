@@ -1,0 +1,5 @@
+<resources>
+    <string name="label">BBC Sounds</string>
+    <string name="serviceUrl">https://www.live.bbctvapps.co.uk/tap/sounds/?origin=portal</string>
+    <string name="serviceName">BBC_Sounds</string>
+</resources>

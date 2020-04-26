@@ -33,6 +33,10 @@ android {
             applicationIdSuffix = ".iPlayer"
         }
 
+        bbcSounds {
+            applicationIdSuffix = ".bbcSounds"
+        }
+
         all4 {
             applicationIdSuffix = ".all4"
         }
