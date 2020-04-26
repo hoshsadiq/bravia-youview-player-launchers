@@ -1,15 +1,24 @@
-apply plugin: 'com.android.application'
+plugins {
+    id 'com.android.application'
+    id 'com.gladed.androidgitversion' version '0.4.13'
+}
 
 android {
     compileSdkVersion 28
     flavorDimensions "versionCode"
 
+    androidGitVersion {
+        prefix 'v'
+    }
+
     defaultConfig {
         applicationId "hosh.io.atv_launchers"
+
         minSdkVersion 24
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+
+        versionCode androidGitVersion.code()
+        versionName androidGitVersion.name()
     }
 
     buildTypes {
