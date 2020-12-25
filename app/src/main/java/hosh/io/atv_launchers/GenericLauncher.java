@@ -4,10 +4,11 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.net.Uri;
 
 public class GenericLauncher extends Activity {
-    // am start -a com.sony.dtv.hbbtvlauncher.LaunchHbbTV -n com.sony.dtv.hbbtvlauncher/.LaunchHbbTV
-    // -e HBBTV_LAUNCHER_INFO "type=bi, service=All4, url=https://yvweb.channel4.com/yvwebapp//"
+    // am start -a com.sony.dtv.intent.action.LAUNCH_HBBTV -n com.sony.dtv.hbbtvplayer/.HbbTvPlayerActivity
+    // -d serviceUrl
 
     protected void onCreate(Bundle bundle) {
         super.onCreate(bundle);
@@ -23,10 +24,9 @@ public class GenericLauncher extends Activity {
         Log.d(getClass().getSimpleName(), "Launching serviceName : " + serviceName + " and serviceURL : " + serviceUrl);
 
         Intent intent = new Intent();
-        intent.setClassName("com.sony.dtv.hbbtvlauncher", "com.sony.dtv.hbbtvlauncher.LaunchHbbTV");
-        intent.putExtra("HBBTV_LAUNCHER_INFO", "type=bi, " +
-                "service=" + serviceName + ", " +
-                "url=" + serviceUrl);
+        intent.setAction("com.sony.dtv.intent.action.LAUNCH_HBBTV");
+        intent.setData(Uri.parse(serviceUrl));
+        intent.setClassName("com.sony.dtv.hbbtvplayer", "com.sony.dtv.hbbtvplayer.HbbTvPlayerActivity");
 
         return intent;
     }
