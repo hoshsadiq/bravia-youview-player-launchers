@@ -61,5 +61,5 @@ deploy:
     repo: hoshsadiq/bravia-youview-player-launchers
     tags: true
     jdk: oraclejdk8
-  api_token:
+  api_key:
     secure: "B7fy0NFd/S3TN97X71K0xUu5taCe7rMKrStsSs1pD06tfKVf0pJCAkhqTI4NQf5bV9/Dc7jR6Gg+EQAyfLZCjxy2pGSyR6Ju4iPN2iLVu+aklwOYuI6APCIJzptxkCPoG91TEbMpNCBTn2LfeQ0+iccX/KDH+/4J1y/hiT/keOEAipiz96jDUTneaWK43eZrqeacwRyKxnP1/vknDn7o9mrcm469q/cv75RCoEAon2DLodAktFfEMiEM4yPTrtt7Znv1iYLy1gBXtVHW4gULHrP3h6TqwbPjWvuPSkThgVwCJXNGyrK1GJrncTFK/tWi/PXIiQ2kn7BnqL7OzXB/ofOA4rZzhMrLYXUJgr7JkWB9FiTVVltn3CrASW5PR1D9rmdlI7H+rovD10HFHBD+N+CENLq50hdWhyO3a2CKZztJe8aIhAJUuMGR5r9QXSSPAIPi2m+fW1TLzzsQ+F16pCSoz+3tZpfJT8EEHuSoNA0ZYl7ojlgwbXYYTnZmlXTC82t8tZkeZQh+khrG/I0117FqgyLzuoHtpyneelBjX8EcR9k7EUVf2KZsEZKxnMX8i8/XtlXeRU4CVgy3HSSBJ0fFMxRoysjxc/JC6r7VZP9lBYUpTfpRN3lDn3mdMHpCvZZuLrBa+ROmbuJebs5qIMtaDus8bhV5lpjlQFio+fM="
