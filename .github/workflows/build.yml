@@ -21,7 +21,7 @@ jobs:
         java-version: 1.8
   
     # set up android platform toosl
-    - uses: malinskiy/action-android/install-sdk@release/0.1
+    - uses: malinskiy/action-android/install-sdk@0.1.0
     - run: sdkmanager platform-tools
     - run: echo $ANDROID_HOME
 
