@@ -19,7 +19,11 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Gradle
-      run: ./gradlew build
-    - name: Build with Gradle
-      run: find . -name "*.apk"
+  
+    # set up android platform toosl
+    - uses: malinskiy/action-android/install-sdk@release/0.1
+    - run: sdkmanager platform-tools
+    - run: echo $ANDROID_HOME
+
+    - name: Build packages
+      run: ./gradlew --no-daemon clean build
