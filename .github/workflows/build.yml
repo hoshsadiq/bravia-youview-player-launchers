@@ -2,15 +2,13 @@ name: Android CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ notmaster ]
   pull_request:
-    branches: [ master ]
+    branches: [ notmaster ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v2
       with:
@@ -19,11 +17,6 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-  
-    # set up android platform toosl
-    - uses: malinskiy/action-android/install-sdk@release/0.1.0
-    - run: sdkmanager platform-tools
-    - run: echo $ANDROID_HOME
 
     - name: Build packages
       run: ./gradlew --no-daemon clean build
