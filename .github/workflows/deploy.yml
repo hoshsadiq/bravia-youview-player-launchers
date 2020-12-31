@@ -32,6 +32,7 @@ jobs:
             ./app/build/outputs/apk/itvHub/release/
             ./app/build/outputs/apk/bbcSounds/release/
             ./app/build/outputs/apk/uktvPlay/release/
+            ./app/build/outputs/apk/britbox/release/
             ./app/build/outputs/apk/my5/release/
             ./app/build/outputs/apk/stv/release/
           signingKeyBase64: ${{ secrets.ANDROID_KEY_BASE64 }}
