@@ -1,3 +1,6 @@
+# Discontinued
+Unfortunately I do not have the time to maintain it nor do I have enough knowhow to address issues for newer TVs. So I will be archiving this repo. Please feel free to fork it or otherwise happy to be contacted if you would like to take over.
+
 # bravia-youview-player-launchers
 
 This is a small application that simply adds a icon to the homescreen
